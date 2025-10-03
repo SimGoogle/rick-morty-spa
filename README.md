@@ -71,3 +71,55 @@ export default defineConfig([
   },
 ])
 ```
+# Rick & Morty SPA
+
+A **React single-page application (SPA)** that fetches and displays characters from the [Rick & Morty API](https://rickandmortyapi.com/documentation).  
+Built using **React, TypeScript, React Query, TanStack Router, and React Table**.
+
+---
+
+## Features
+
+| Feature | Description |
+|---------|-------------|
+| Character List | Displays a paginated list of Rick & Morty characters. |
+| Pagination | Navigate through pages using Prev / Next buttons. |
+| State Persistence | Keeps the current page state across refreshes and URL sharing. |
+| Refresh Button | Reloads the currently visible page. |
+| Character Details | Click a character row to view detailed information on a dedicated route. |
+| Responsive Table | Interactive table with images and character information using React Table. |
+
+---
+
+## Tech Stack
+
+- **Frontend:** React + TypeScript  
+- **Routing:** TanStack Router  
+- **Data Fetching & State Management:** React Query  
+- **Table:** React Table (TanStack Table)  
+- **Build Tool:** Vite  
+- **Styling:** CSS / Tailwind (optional)
+
+---
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/rick-morty-spa.git
+cd rick-morty-spa
+
+---
+
+## Install dependencies
+
+- npm install
+
+---
+
+## Start the development server
+
+- npm run dev
+
+---
